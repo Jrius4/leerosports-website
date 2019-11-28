@@ -25,7 +25,7 @@
           <nav class="navbar navbar-expand-lg px-lg-0 bg-light navbar-light">
             <div class="container position-relative">
               {{-- <!-- Navbar Brand--> --}}
-              <a href="{{url('/')}}" class="navbar-brand"> 
+              <a href="{{url('/')}}" class="navbar-brand">
                 <img width="100" height="50" src="{{asset('/img/logos/leero pngs-03.png')}}" alt="logo"></a>
               {{-- <!-- Toggle Button--> --}}
               <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right">Menu <i class="fa fa-bars"></i></button>
@@ -37,7 +37,7 @@
                   <div class="nav-item"><a href="{{url('/processes')}}" class="nav-link">Processes</a></div>
 
                 <div class="nav-item"><a href="{{route('projects.index')}}" class="nav-link">Projects</a></div>
-                <div class="nav-item"><a href="{{url('/blog')}}" class="nav-link">Blog</a></div>
+                <div class="nav-item"><a href="{{url('/blog')}}" class="nav-link">News</a></div>
                 <div class="nav-item"><a href="{{url('/careers')}}" class="nav-link">Careers</a></div>
                   <div class="nav-item"><a href="{{url('/about-us')}}" class="nav-link">About Us</a></div>
                   <div class="nav-item"><a href="{{url('/contact-us')}}" class="nav-link">Contact Us</a></div>

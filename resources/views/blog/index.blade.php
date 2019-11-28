@@ -5,7 +5,7 @@
     <div  class="row d-flex justify-content-center" style="min-height:250px;min-width:100%;margin-top:-20px">
 
                 <div class="col-md-6 text-light py-5">
-                    <h3>Blog</h3>
+                    <h3>News</h3>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. A quasi temporibus explicabo nulla maxime, eveniet, sapiente quo maiores commodi natus totam consequatur esse quidem architecto? Pariatur at odit natus sint!
                     </p>
