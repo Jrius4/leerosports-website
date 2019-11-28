@@ -1,6 +1,6 @@
 @extends('layouts.backend.main')
 
-@section('title', 'Ndebitech | Edit Client')
+@section('title', 'Leero Sports | Edit Client')
 
 @section('content')
 

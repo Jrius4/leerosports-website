@@ -1,6 +1,6 @@
 @extends('layouts.backend.main')
 
-@section('title', 'Ndebitech | Add new Process')
+@section('title', 'Leero Sports | Add new Process')
 
 @section('content')
 

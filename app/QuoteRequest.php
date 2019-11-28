@@ -19,4 +19,9 @@ class QuoteRequest extends Model
     'time_done',
     'field_industry_id'];
 
+    public function fieldIndustry()
+    {
+        return $this->belongsTo(FieldIndustry::class);
+    }
+
 }

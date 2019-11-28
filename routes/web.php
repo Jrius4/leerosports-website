@@ -195,7 +195,7 @@ Route::resource('/projects', 'Home\ProjectController',['only'=>['index','show','
 Route::resource('/services', 'Home\ServiceController',['only'=>['index','show','as'=>'services']]);
 Route::resource('/service-categories', 'Home\ServiceCategoryController',['only'=>['index','show','as'=>'service-categories']]);
 // Route::get('/service-categories/{service_category}','Home\ServiceController@showCategory',['as'=>'service-categories']);
-Route::put('/quote-requests/{quote_request}',['uses'=>'Home\QuoteRequestController@store','as'=>'quote-requests']);
+Route::resource('/quote-requests','Home\QuoteRequestController',['as'=>'quote-requests']);
 Route::get('/about-us','Home\HomeController@aboutUs');
 Route::get('/contact-us','Home\HomeController@contactUs');
 

@@ -13,10 +13,10 @@
 <link rel="stylesheet" href="{{asset('/assets/css/style.blue.css')}}">
 <link rel="stylesheet" href="{{asset('/assets/css/custom.css')}}">
 <link rel="stylesheet" href="{{asset('/css/custom.css')}}">
-<link rel="shortcut icon" href="{{asset('/img/logos/ndebi-tech-favi-blue.png')}}" type="image/x-icon">
+<link rel="shortcut icon" href="{{asset('/img/logos/leero pngs-02.png')}}" type="image/x-icon">
 <link rel="stylesheet" href="{{asset('/vendor/plugins/ion-rangeslider/css/ion.rangeSlider.min.css')}}">
 <link rel="stylesheet" href="{{asset('/vendor/plugins/bootstrap-slider/css/bootstrap-slider.min.css')}}">
-    <title>Ndebi tech</title>
+    <title>Leero Sports</title>
 </head>
 <body class="">
 

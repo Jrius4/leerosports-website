@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ndebitech Dashboard</title>
+    <title>Leero Sports Dashboard</title>
 
     <link rel="stylesheet" href="{{asset('vendor/plugins/fontawesome-free/css/all.min.css')}}">
     <!-- Ionicons -->
@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="{{asset('vendor/plugins/summernote/summernote-bs4.css')}}">
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
-    <link rel="shortcut icon" href="{{asset('img/logos/ndebi-tech-favi-blue.png')}}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{asset('/img/logos/leero pngs-02.png')}}" type="image/x-icon">
 
     <!--Editors -->
     <link rel="stylesheet" href="/backend/css/skins/_all-skins.min.css">
@@ -50,7 +50,7 @@
 
 
         <footer class="main-footer">
-            <strong>Copyright &copy; {{date('Y')}} <a href="/">ndebitech</a>.</strong>
+            <strong>Copyright &copy; {{date('Y')}} <a href="/">leerosports</a>.</strong>
             All rights reserved.
             <div class="float-right d-none d-sm-inline-block">
                 <b>designed by</b> kazibwejuliusjunior@gmail.com

@@ -2,17 +2,17 @@
 
 @section('content')
 
-<header class="mt-0 pt-0" style="margin-top:-200px">
-        <div style="background:{{false?null:'radial-gradient(circle, rgba(28,41,223,0.8799719716988358) 0%, rgba(5,96,203,1) 100%);'}} min-height:250px;min-width:100%;margin-top:-20px">
+<div class="mt-0 pt-0 container-fluid" style="margin-top:-200px;background:{{false?null:'radial-gradient(circle, rgba(28,41,223,0.8799719716988358) 0%, rgba(5,96,203,1) 100%);'}}">
+    <div style="min-height:250px;min-width:100%;margin-top:-20px" class="bg-transparent">
                 <img src="" alt="">
                 <div class="row d-flex justify-content-center">
-                        <div class=" col-md-6 text-light align-self-baseline py-2">
+                        <div class=" col-md-6 text-light align-self-baseline py-5">
 
                             <h2>{{ $project->title }}</h2>
                         </div>
                 </div>
             </div>
-        </header>
+        </div>
 <div class="container">
 <div style="margin-top:-25px" class="bg-light p-2 card">
 

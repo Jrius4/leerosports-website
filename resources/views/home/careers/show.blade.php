@@ -1,21 +1,22 @@
 @extends('layouts.home.main')
 
 @section('content')
-<header class="mt-0 pt-0" style="margin-top:-200px">
-        <div style="background:{{false?null:'radial-gradient(circle, rgba(28,41,223,0.8799719716988358) 0%, rgba(5,96,203,1) 100%);'}} min-height:250px;min-width:100%;margin-top:-20px">
-                <img src="" alt="">
-                <div class="row d-flex justify-content-center">
-                        <div class=" col-md-6 text-light align-self-baseline">
-                                <h3>Career</h3>
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. A quasi temporibus explicabo nulla maxime, eveniet, sapiente quo maiores commodi natus totam consequatur esse quidem architecto? Pariatur at odit natus sint!
-                            </p>
-                            <h4>{{$career->title}}</h4>
+<div class="mt-0 pt-0 container-fluid" style="margin-top:-200px;background:{{false?null:'radial-gradient(circle, rgba(28,41,223,0.8799719716988358) 0%, rgba(5,96,203,1) 100%);'}} ">
+        <div  class="row d-flex justify-content-center" style="min-height:250px;min-width:100%;margin-top:-20px">
 
-                        </div>
-                </div>
-            </div>
-        </header>
+                    <div class="col-md-6 text-light py-5">
+                            <p>
+                                    We embrass all backgrounds and Cultures
+                                </p>
+                            <h3>Career</h3><br>
+                        <h4>{{$career->title}}</h4>
+
+                    </div>
+
+        </div>
+    </div>
+
+
         <div class="container my-3">
             <ol class="breadcrumb">
               <li class="breadcrumb-item text-uppercase"> <a href="{{url('/')}}" class="text-primary">Home</a></li>
@@ -23,7 +24,7 @@
             </ol>
         </div>
 
-        <div class="row justify-content-center">
+        <div class="row container-fluid justify-content-center">
                 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
 
 
@@ -42,12 +43,20 @@
             </div>
 
 
-        <div class="container py-2" id="single-content">
+        <div class="container-fluid py-2" id="single-content">
             <div class="my-1">
                 <h2>{{$career->title}}</h2>
             </div>
             <div class="py-2">
                     <p>{!!$career->body!!}</p>
+            </div>
+            <div>
+                <p class="text-center text-primary">
+                    <strong>Why don't you drop us your resume or portfolio? <br>
+                        We always say Hi to great people
+                    </strong><br>
+                    <span class="badge badge-primary p-2">info@leerosports.com</span>
+                </p>
             </div>
         </div>
 

@@ -4,20 +4,16 @@
 
 
 
-<header class="mt-0 pt-0" style="margin-top:-200px">
-    <div style="background:{{false?null:'radial-gradient(circle, rgba(28,41,223,0.8799719716988358) 0%, rgba(5,96,203,1) 100%);'}} min-height:250px;min-width:100%;margin-top:-20px">
+<div class="mt-0 pt-0 container-fluid" style="margin-top:-200px;background:{{false?null:'radial-gradient(circle, rgba(28,41,223,0.8799719716988358) 0%, rgba(5,96,203,1) 100%);'}}">
+    <div style="min-height:250px;min-width:100%;margin-top:-20px" class="bg-transparent">
         <img src="" alt="">
         <div class="row d-flex justify-content-center">
-                <div class=" col-md-6 text-light align-self-baseline">
+                <div class=" col-md-6 text-light align-self-center py-5">
                         <h3>Processes</h3>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. A quasi temporibus explicabo nulla maxime, eveniet, sapiente quo maiores commodi natus totam consequatur esse quidem architecto? Pariatur at odit natus sint!
-                    </p>
-
                 </div>
         </div>
     </div>
-</header>
+</div>
 <div class="container my-3">
     <ol class="breadcrumb">
         <li class="breadcrumb-item text-uppercase"> <a href="{{url('/')}}" class="text-primary">Home</a></li>
@@ -97,8 +93,17 @@
 
         <div class="col-md-4 process p-2 mb-2">
             <h2>{{$process->title}}</h2>
-            <p>{!!Str::words($process->excerpt,15)!!}</p>
-            <a href="{{route('processes.show',$process->slug)}}" class="btn btn-primary btn-unique ">Learn More</a>
+            <p class="text-center">{!!$process->excerpt!!}</p>
+            @if ($process->title=='DISCOVERY')
+                <a href="{{route('processes.show',$process->slug)}}" class="btn btn-warning btn-unique ">Learn More</a>
+            @elseif($process->title=='DEVELOPMENT')
+                <a href="{{route('processes.show',$process->slug)}}" class="btn btn-primary btn-unique ">Learn More</a>
+            @elseif($process->title=='DELIVERY')
+                <a href="{{route('processes.show',$process->slug)}}" class="btn btn-success btn-unique ">Learn More</a>
+            @else
+                <a href="{{route('processes.show',$process->slug)}}" class="btn btn-primary btn-unique ">Learn More</a>
+            @endif
+
         </div>
 
 

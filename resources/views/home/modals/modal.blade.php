@@ -13,11 +13,18 @@
                     <!-- Modal body -->
                     <div class="modal-body">
 
-                            <form action="{{route('quote-requests',$quote_request)}}" method="PUT" >
+                            {{-- <form action="{{route('quote-requests.store')}}" method="POST" > --}}
+                            {!! Form::model($quote_request, [
+                                'method' => 'POST',
+                                'route'  => 'quote-requests.quote-requests.store',
+                                'files'  => TRUE,
+                                'id' => 'post-form'
+                            ]) !!}
                                 <div class="row d-flex justify-content-between">
                                     @include('home.modals.form')
                                 </div>
-                            </form>
+                            {!! Form::close() !!}
+                            {{-- </form> --}}
 
                     </div>
 

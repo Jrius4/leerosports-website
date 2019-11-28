@@ -1,7 +1,7 @@
 
     <div class="home-page bg-light" style="margin-top:-20px;">
         <!-- Hero Section -->
-        <section class="hero d-flex flex-row align-items-center">
+        <section class="red-light d-flex flex-row align-items-center">
           <div class="container">
             <div data-slider-id="1" class="owl-carousel hero-1-slider">
               <!-- Slide-->
@@ -17,7 +17,7 @@
 
 
                   </div>
-                <div class="col-md-6 product"><img src="{{asset('/img/logos/ndebi-favi.png')}}" alt="lens" class="img-fluid image-header d-none d-md-block"></div>
+                <div class="col-md-6 product"><img src="{{asset('/img/logos/leero pngs-03.png')}}" alt="lens" class="img-fluid image-header d-none d-md-block"></div>
                 </div>
               </div>
               <!-- Slide END-->
@@ -25,6 +25,7 @@
             </div>
           </div>
         </section>
+
 
         <section class="bg-dark w-100 m-auto service row justify-content-center text-center py-3">
             <div class="col-12 text-center text-light my-3">
@@ -49,7 +50,7 @@
 
 
                                 <h6 class="card-service-title">{{$category->title}}</h6>
-                            <a style="text-decoration:none" href="{{route('service-categories.show',$category->slug)}}" class="btn btn-unique-outline ">Learn more</a>
+                            <a style="text-decoration:none" href="{{route('service-categories.show',$category->slug)}}" class="btn btn-danger btn-unique-outline ">Learn more</a>
                             </div>
                         </div>
                     </div>

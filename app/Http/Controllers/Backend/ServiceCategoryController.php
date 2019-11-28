@@ -20,7 +20,7 @@ class ServiceCategoryController extends BackendController
     public function __construct()
     {
         parent::__construct();
-        $this->uploadPath = public_path(config('cms.image.directory'));
+        $this->uploadPath = public_path(config('cms.service-image.directory'));
     }
     /**
      * Display a listing of the resource.
