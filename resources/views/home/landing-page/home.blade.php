@@ -17,7 +17,7 @@
 
 
                   </div>
-                <div class="col-md-6 product"><img src="{{asset('/img/logos/leero pngs-03.png')}}" alt="lens" class="img-fluid image-header d-none d-md-block"></div>
+                <div class="col-md-6 product"><img src="{{asset('/img/logos/leero png-03.png')}}" alt="lens" class="img-fluid image-header d-none d-md-block"></div>
                 </div>
               </div>
               <!-- Slide END-->
